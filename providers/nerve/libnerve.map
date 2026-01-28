@@ -1,0 +1,31 @@
+/* Export symbols should be added below according to
+   Documentation/versioning.md document. */
+NERVE_1.0 {
+	global:
+		nervedv_create_driver_qp;
+	local: *;
+};
+
+NERVE_1.1 {
+	global:
+		nervedv_create_qp_ex;
+		nervedv_query_ah;
+		nervedv_query_device;
+} NERVE_1.0;
+
+NERVE_1.2 {
+	global:
+		nervedv_cq_from_ibv_cq_ex;
+		nervedv_create_cq;
+} NERVE_1.1;
+
+NERVE_1.3 {
+	global:
+		nervedv_query_mr;
+} NERVE_1.2;
+
+NERVE_1.4 {
+	global:
+		nervedv_query_qp_wqs;
+		nervedv_query_cq;
+} NERVE_1.3;

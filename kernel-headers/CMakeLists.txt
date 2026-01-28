@@ -17,6 +17,7 @@ publish_internal_headers(rdma
   rdma/mlx5_user_ioctl_cmds.h
   rdma/mlx5_user_ioctl_verbs.h
   rdma/mthca-abi.h
+  rdma/nerve-abi.h
   rdma/ocrdma-abi.h
   rdma/qedr-abi.h
   rdma/rdma_netlink.h
@@ -77,6 +78,7 @@ rdma_kernel_provider_abi(
   rdma/mlx4-abi.h
   rdma/mlx5-abi.h
   rdma/mthca-abi.h
+  rdma/nerve-abi.h
   rdma/ocrdma-abi.h
   rdma/qedr-abi.h
   rdma/rdma_user_rxe.h
